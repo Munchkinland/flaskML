@@ -1,0 +1,51 @@
+/* Reset de estilos para evitar conflictos con el navegador */
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.ui.inverted.container {
+    margin-top: 20px;
+}
+
+.ui.inverted.borderless.menu.topmenu {
+    border-radius: 0;
+}
+
+.ui.blue.inverted.header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ui.hidden.divider {
+    margin: 10px 0;
+}
+
+.ui.center.aligned.container {
+    margin-top: 40px;
+}
+
+.ui.header {
+    color: #333;
+}
+
+.ui.header h4 {
+    color: #555;
+}
+
+.ui.massive.ui.green.button {
+    margin-top: 20px;
+    background-color: red; /* Cambiar el color del botón a rojo */
+}
+
+/* Estilos adicionales para el enlace dentro del botón */
+.ui.massive.ui.green.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
